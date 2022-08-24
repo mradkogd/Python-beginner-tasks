@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Write a program that greets the user by displaying the word Hello, the entered name, and punctuation, as in the following example:
+
+name = str(input())
+print ("Hello, " + name + "!")
