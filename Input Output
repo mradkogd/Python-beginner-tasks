@@ -1,29 +1,34 @@
+n children divide k apples equally, the non-divisible remainder remains in the basket. 
+How many apples will each child get? How many apples will be left in the basket? 
+The program receives the numbers n and k as input and must output the desired number of apples (two numbers).
+
+n = int(input())
+k = int(input())
+print(k//n)
+print(k%n)
 
 
 
 
 
+Number n is given. N minutes have passed since the beginning of the day. 
+Determine how many hours and minutes the digital clock will show at this moment. 
+The program should output two numbers: the number of hours (from 0 to 23) and the number of minutes (from 0 to 59). 
+Note that the number n can be greater than the number of minutes in a day.
+
+n = int(input())
+n = n%(60*24)
+print(n//60, n%60)
 
 
 
 
 
+Write a program that reads an integer and outputs text similar to the one in the example (spaces are important!).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+x = int(input())
+print("The next number for number " + str(x) + " is " + str(x+1))
+print("The previous number for the number " + str(x) + " is " + str(x-1))
 
 
 
@@ -33,3 +38,10 @@ Write a program that greets the user by displaying the word Hello, the entered n
 
 name = str(input())
 print ("Hello, " + name + "!")
+
+
+
+
+
+
+
